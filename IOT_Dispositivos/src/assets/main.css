@@ -1,0 +1,28 @@
+.body {
+    background-color: #f1e6bd;
+}
+
+#pie{
+    color:rgba(10, 9, 16, 0.711);
+    font-weight: bold;
+    padding: 10px 0;
+    position: relative;
+    bottom:0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloDestacado {
+    color:rgb(157, 10, 10);
+}
+
+.card {
+    width: 18rem; 
+    margin-top: 24px; 
+    margin-left: 39%; 
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px;
+}

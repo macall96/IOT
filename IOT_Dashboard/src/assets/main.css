@@ -1,0 +1,86 @@
+#pie{
+    color:rgba(10, 9, 16, 0.711);
+    font-weight: bold;
+    padding: 10px 0;
+    position: relative;
+    bottom:0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    background-color: #f1e6bd;
+    min-height: 500px;
+}
+
+.nombreEspacio {
+    color:maroon;
+    font-weight: bold;
+}
+
+.btnEliminarDispositivo{
+    background-color: rgb(182, 27, 27);
+    color: white;
+    border: 2px solid rgb(182, 27, 27);
+    border-radius: 3px;
+    font-size: 15px;
+    height: 26px; 
+    width: 80px; 
+}
+
+.btnEliminarDispositivo:hover{
+    background-color: rgb(218, 87, 87);
+    border: 2px solid rgb(218, 87, 87);
+    transition: background-color 0.3s ease, border-color 0.5s ease;
+   
+}
+
+.btnVerDispositivo{
+    background-color: rgb(63, 50, 155);
+    color: white;
+    border: 2px solid rgb(63, 50, 155);
+    border-radius: 3px;
+    font-size: 15px;
+    height: 26px; 
+    width: 80px; 
+}
+
+.btnVerDispositivo:hover{
+    background-color: rgb(102, 100, 232);
+    border: 2px solid rgb(102, 100, 232);
+    transition: background-color 0.3s ease, border-color 0.5s ease;
+   
+}
+
+.btnRenombrarEspacio {
+    background-color: rgb(203, 136, 27);
+    color: white;
+    border: 2px solid rgb(203, 136, 27);
+    border-radius: 7px;
+    font-size: 15px;
+    height: 38px; 
+    width: 150px; 
+    padding: 4px;
+}
+
+.btnRenombrarEspacio:hover{
+    background-color: rgb(223, 189, 110);
+    border: 2px solid rgb(223, 189, 110); 
+    transition: background-color 0.3s ease, border-color 0.5s ease;
+}
+
+.tituloEspacio {
+    color:rgb(108, 2, 2);
+    border: 2px solid rgb(108, 2, 2);
+    border-radius: 23px;
+    padding: 9px;
+    float: left;
+    margin-left: 20px;
+}
+
+.tituloDispositivo {
+    color:rgb(108, 2, 2);
+    font-weight: bold;
+}
